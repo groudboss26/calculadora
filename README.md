@@ -33,8 +33,3 @@ Este é um projeto de calculadora simples desenvolvida em **JavaScript**, com fo
 
 ---
 
-## 🚀 Como usar
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/groudboss26/calculadora
