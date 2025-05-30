@@ -29,6 +29,20 @@ Este é um projeto de calculadora simples desenvolvida em **JavaScript**, com fo
 ![Calculadora](./img/captura1.png)
 ![Calculadora](./img/captura2.png)
 
+## 📌 Observações
+
+Esta calculadora foi criada para fins de estudo e prática com JavaScript e regex.
+
+Ainda não suporta raiz quadrada ou funções avançadas como `sen()`, `cos()`, `log()`, etc (mas pode ser facilmente expandida com `math.js`!).
+
+---
+
+## 🧠 Autor
+
+Feito com 💻 por **[Guilherme Duarte da Silva]**  
+Curso: Análise e Desenvolvimento de Sistemas  
+Faculdade: [Anhanguera]
+
 
 
 ---
