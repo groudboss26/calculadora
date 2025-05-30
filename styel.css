@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(/Calculadora/img/calculadora.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+div.calculadora{
+    margin: 200px auto;
+    width: 200px;
+}
+
+
+div.numerador input{
+    width: 550px;
+    height: 200px;
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+    position: relative;
+    right: 133px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow : 13px 0px 8px rgba(128, 128, 128, 0.788);
+
+    background-color: rgba(240, 248, 255, 0.39);
+}
+
+
+
+div.botoes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    position: relative;
+    top: 20px;
+    right: 133px;
+    
+}
+
+div.botoes button[type='button']{
+    width: 77px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(77, 77, 77, 0.925);
+    box-shadow: 4px 6px 5px gray;
+}
+
+div.botoes_2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    position: relative;
+    bottom: 180px;
+    left: 220px;
+}
+
+div.botoes_2 button[type='button']{
+    width: 200px;
+    height: 20px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(77, 77, 77, 0.925);
+    box-shadow: 4px 6px 5px gray;
+}

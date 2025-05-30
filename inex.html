@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/Calculadora/styel.css">
+
+    <!-- Biblioteca math.js-->
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@11/lib/browser/math.js"></script>
+
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="numerador">
+
+            <input type="text" name="text" id="text">
+        </div>
+
+        <div class="botoes">
+            <button type="button" onclick="butao('1')">1</button>
+            <button type="button" onclick="butao('2')">2</button>
+            <button type="button" onclick="butao('3')">3</button>
+            <button type="button" onclick="butao('4')">4</button>
+            <button type="button" onclick="butao('5')">5</button>
+            <button type="button" onclick="butao('6')">6</button>
+            <button type="button" onclick="butao('7')">7</button>
+            <button type="button" onclick="butao('8')">8</button>
+            <button type="button" onclick="butao('9')">9</button>
+            <button type="button" onclick="butao('0')">0</button>
+            <button type="button" onclick="butao(',')">,</button>
+            <button type="button" onclick="calcular()">=</button>
+        </div>
+
+
+        <div class="botoes_2">
+            <button type="button" onclick="butao('+')">+</button>
+            <button type="button" onclick="butao('-')">-</button>
+            <button type="button" onclick="butao('*')">*</button>
+            <button type="button" onclick="butao('/')">/</button>
+            <button type="button" onclick="butao('^')">^</button>
+            <button type="button" onclick="butao('.')">.</button>
+            <button type="button" onclick="butao('(')">(</button>
+            <button type="button" onclick="butao(')')">)</button>
+            <button type="button" onclick="clean()">Limpar</button>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
